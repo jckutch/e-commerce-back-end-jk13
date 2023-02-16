@@ -9,13 +9,13 @@ Tag.init(
     // define columns
     id: {
       type: DataTypes.INTEGER,
-      primaryKey: true,
       allowNull: false,
-      autoIncrement: true,
-  },
+      primaryKey: true,
+      autoIncrement: true
+    },
     tag_name: {
-      type: DataTypes.STRING,
-  },
+      type: DataTypes.STRING
+    }
   },
   {
     sequelize,
