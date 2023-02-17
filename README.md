@@ -46,10 +46,11 @@ THEN I am able to successfully create, update, and delete data in my database<br
   <a name="installation"></a>
     1) User can copy repository from github at: (https://github.com/jckutch/e-commerce-back-end-jk13)<br />
     2) Then install all dependencies with `npm i` in terminal.<br />
-    3) Then in enter personal mysql username and password in `.env.`<br />
+    3) Then enter personal mysql username and password in `.env.`<br />
     4) Then log into MySQL by entering `mysql -u root -p` in the command line, using your personal password.<br />
     5) Then execute database by entering `SOURCE db/schema.sql`.<br />
     5) Then enter `quit` in MySQL and enter `npm run seed` in terminal to run application.<br />
+    6) Then enter `npm start` to start database.<br />
 
 
 ## Usage
@@ -70,14 +71,8 @@ Repository Link:  https://github.com/jckutch/e-commerce-back-end-jk13<br />
 ## Mockup
   <a name="mockup"></a>
   Link to Mockup VIDEO:<br />
-   https://drive.google.com/file/d/1U1bRbCtEWhxDGv5d3r3lJBGbJiwbXJlZ/view<br />
+   https://drive.google.com/file/d/1L1Xgq5HAwbMLTqjYoSyl20qOpnUvdqPt/view<br />
    <br />
-
-<font color="#e9d66b">Sample Images:</font><br />
-
-![image](./assets/Departments_Screenshot%20.jpg)<br />
-![image](./assets/Roles_Screenshot.jpg)<br />
-![image](./assets/Employees_Screenshot.jpg)<br />
 
 
 ## License 
